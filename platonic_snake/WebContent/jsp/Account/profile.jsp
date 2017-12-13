@@ -8,6 +8,8 @@
 	<title>Profil</title>
 </head>
 <BODY>
+	
+	<!-- HAHAHAH Ã„NDERUNG -->
 
 <%@ includefile="/jsp/Fragments/header.jspf" %>
 
@@ -18,7 +20,7 @@
 	<div class = "ausrichtung">
 		<div class = "ausgabefeld">
 			<h1>Ihr Profil</h1>
-			<p>Sie können jederzeit ihre Nutzerdaten verändern. Ihren Account können Sie <a href="../Delete/delete.jsp">hier</a> löschen.
+			<p>Sie kÃ¶nnen jederzeit ihre Nutzerdaten verÃ¤ndern. Ihren Account kÃ¶nnen Sie <a href="../Delete/delete.jsp">hier</a> lÃ¶schen.
 			<form action = "/platonic_snake/CreateServlet3">
 				<label for = "username">Username: </label>
 				${user.username}
@@ -31,7 +33,7 @@
 				<label for = "password">Passwort: </label>
 				<INPUT TYPE=password NAME = "password" id = "password" SIZE=20 required><BR>
 				<br>
-				<label for = "cpassword">Passwort bestätigen: </label>
+				<label for = "cpassword">Passwort bestÃ¤tigen: </label>
 				<INPUT TYPE=password NAME = "cpassword" id = "cpassword" SIZE=20 required><BR>
 				<br>
 				<label for = "birthday">Geburtsdatum: </label>
